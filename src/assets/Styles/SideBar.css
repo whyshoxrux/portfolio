@@ -1,0 +1,21 @@
+.sideBar {
+    width: calc(18px * 2 + 20px);
+    z-index: 333;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.527);
+}
+
+.icon-name {
+    transition: all 0.3s ease;
+    background-color: #FFCA28;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.icon-container:hover .icon-name {
+    opacity: 1;
+    left: 54px;
+}

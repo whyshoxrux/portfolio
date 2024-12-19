@@ -1,0 +1,18 @@
+@import './assets/Styles/SideBar.css';
+@import './assets/Styles/backgrounds.css';
+@import './assets/Styles/customs.css';
+@import './assets/Styles/fonts.css';
+
+* {
+    scroll-behavior: smooth;
+}
+
+/* section-contact form */
+body.active-modal {
+    overflow-y: hidden;
+}
+
+/* section-projects */
+.card:hover .card-overlay {
+    opacity: 1;
+}

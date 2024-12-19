@@ -1,0 +1,50 @@
+.icn:hover {
+    color: #FFCA28;
+}
+
+.btn:hover {
+    @apply text-yellow-300
+}
+
+.btn {
+    @apply cursor-pointer;
+}
+
+.g-btn {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+}
+
+.g-btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.g-btn-2 {
+    background-image: linear-gradient(to right, #ee0979 0%, #ff6a00 51%, #ee0979 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+}
+
+.g-btn-2:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
